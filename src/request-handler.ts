@@ -15,9 +15,9 @@ class RequestHandler {
         this.client.interceptors.response.use(this.handleResponse, this.handleError);
     }
 
-    private handleResponse = ({ data }: AxiosResponse) => data;
+    private handleResponse = ({ data }: AxiosResponse): any => data;
 
-    private handleError = (error: AxiosError) => Promise.reject(error.response?.data);
+    private handleError = (error: AxiosError): any => Promise.reject(error.response?.data);
 }
 
 export default RequestHandler;
