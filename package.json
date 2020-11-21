@@ -1,5 +1,5 @@
 {
-    "name": "BunnyCDN.JS.Storage",
+    "name": "bunnycdn-js-storage",
     "version": "1.0.0",
     "description": "",
     "main": "dist/index.js",
@@ -14,8 +14,8 @@
         "url": "git+https://github.com/nadunc/BunnyCDN.JS.Storage.git"
     },
     "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "author": "Nadun Chamikara",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/nadunc/BunnyCDN.JS.Storage/issues"
     },
