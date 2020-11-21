@@ -1,5 +1,5 @@
-'use strict';
-Object.defineProperty(exports, '__esModule', { value: true });
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var URLBuilder = /** @class */ (function () {
     function URLBuilder(storageZoneName, storageZoneRegion) {
         var _this = this;
@@ -31,5 +31,5 @@ var URLBuilder = /** @class */ (function () {
         }
     }
     return URLBuilder;
-})();
+}());
 exports.default = URLBuilder;
