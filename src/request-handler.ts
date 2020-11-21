@@ -1,8 +1,8 @@
 import axios, { AxiosResponse, AxiosInstance, AxiosError } from 'axios';
 
-declare module 'axios' {
-    type AxiosResponse<T = any> = Promise<T>;
-}
+// declare module 'axios' {
+//     type AxiosResponse<T = any> = Promise<T>;
+// }
 
 class RequestHandler {
     public client: AxiosInstance;
